@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="header">
         <img src="/images/app-green.png" alt="green-logo" className="logo" />
         <Switch />
-        <img src="/images/face.jpg" alt="icon" className="icon" />
+        <img src="/images/face.jpg" alt="face-icon" className="face-icon" />
       </div>
     );
   }
