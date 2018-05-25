@@ -13,8 +13,6 @@ class Main extends Component {
   }
 
   onInputChange(e) {
-    console.log("name: " + e.target.name);
-    console.log("value: " + e.target.value);
     this.setState({
       [e.target.name]: e.target.value
     });

@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   background-color: #4d4d4d;
-  color: #ffff;
-  position: relative;
+  color: rgb(255, 255, 255);
   width: 20%;
   height: 100%;
+  position: relative;
 }
 
 .line-item {

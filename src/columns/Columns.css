@@ -4,10 +4,10 @@
 }
 
 .column-container {
-  display: flex;
-  justify-content: space-around;
   background-color: #f8f8f8;
+  justify-content: space-around;
   padding: 2%;
+  display: flex;
   box-shadow: 1px 1px 1px 1px #e9e8e8;
 }
 

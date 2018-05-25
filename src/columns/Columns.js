@@ -13,7 +13,6 @@ class Columns extends Component {
     for (let i = 0; i < this.props.numOfCol; i++) {
       columns.push(<div className="column" style={columnStyle} key={i} />);
     }
-
     return (
       <div className="columns">
         <div className="column-container">{columns}</div>
