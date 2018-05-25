@@ -1,0 +1,5 @@
+.header {
+  border: 3px solid black;
+  display: inline-flex;
+  width: 100%;
+}
