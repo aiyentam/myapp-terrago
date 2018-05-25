@@ -6,11 +6,11 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="sidebar">
-        <LineItem />
+        <LineItem color={this.props.color} />
         <hr />
-        <LineItem />
+        <LineItem color={this.props.color} />
         <hr />
-        <LineItem />
+        <LineItem color={this.props.color} />
         <hr />
       </div>
     );
