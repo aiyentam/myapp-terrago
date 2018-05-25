@@ -1,0 +1,29 @@
+.switch {
+  padding: 10px 35px;
+}
+
+.switch input {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+}
+
+.switch label {
+  display: inline-block;
+  border: 1px solid #57b055;
+  background-color: #ffff;
+  color: #57b055;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 85px;
+  transition: all 0.4s ease-in-out;
+}
+
+.switch label:hover {
+  cursor: pointer;
+}
+
+.switch input:checked + label {
+  background: #57b055;
+  color: #ffff;
+}

@@ -6,9 +6,9 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>header</h1>
+        <img src="/images/app-green.png" alt="green-logo" className="logo" />
         <Switch />
-        <h2>logo</h2>
+        <img src="/images/face.jpg" alt="icon" className="icon" />
       </div>
     );
   }

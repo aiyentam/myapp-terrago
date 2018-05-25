@@ -1,5 +1,23 @@
 .header {
   border: 3px solid black;
   display: inline-flex;
-  width: 100%;
+  width: 98%;
+  background-color: #f8f8f8;
+  padding: 15px 25px;
+}
+
+.logo {
+  margin-right: auto;
+  height: 45px;
+}
+
+.logo,
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
 }
