@@ -1,8 +1,10 @@
 .header {
   display: inline-flex;
-  width: 98%;
+  flex-wrap: wrap;
   background-color: #f8f8f8;
+  width: 98%;
   padding: 15px 25px;
+  box-shadow: 0 10px 6px -6px #e9e8e8;
 }
 
 .logo {
@@ -19,39 +21,4 @@
   border-radius: 50%;
   height: 55px;
   width: 55px;
-}
-
-.line-item {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-
-.title {
-  padding: 10px 10px;
-  margin: 0px;
-  min-width: 0;
-}
-
-.title h1,
-h2 {
-  margin: 0px;
-  padding: 0px 10px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.title h1 {
-  font-size: 20px;
-}
-
-.title h2 {
-  font-size: 18px;
-  padding-top: 2px;
-}
-
-.detail {
-  font-size: 15px;
-  padding: 8px 15px;
 }

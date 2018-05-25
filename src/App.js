@@ -9,8 +9,15 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
-        <Sidebar />
-        <Main />
+        <div className="body-content">
+          <Sidebar />
+          <Main />
+        </div>
+        <div className="footer">
+          <img src="/images/Screw.svg" alt="screw" />
+          <h1 className="fixed">Fixed to the bottom</h1>
+          <img src="/images/Screw.svg" alt="screw" />
+        </div>
       </div>
     );
   }

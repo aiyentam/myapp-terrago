@@ -1,14 +1,50 @@
 .sidebar {
-  border: 3px solid black;
   display: flex;
   flex-direction: column;
+  background-color: #4d4d4d;
+  color: #ffff;
   position: fixed;
   width: 20%;
   height: 100%;
+}
+
+.line-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 hr {
   margin-left: 0;
   margin-right: 0;
   border: 1px solid #7e7e7e;
+}
+
+.title {
+  padding: 10px 10px;
+  margin: 0px;
+  min-width: 0;
+}
+
+.title h1,
+h2 {
+  margin: 0px;
+  padding: 0px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.title h1 {
+  font-size: 20px;
+}
+
+.title h2 {
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.detail {
+  font-size: 15px;
+  padding: 8px 15px;
 }
