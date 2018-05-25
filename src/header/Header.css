@@ -18,6 +18,20 @@
   cursor: pointer;
 }
 
+.face-icon {
+  background-image: url("/images/face.jpg");
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 960px) {
+  .logo {
+    margin: auto;
+  }
+}
+
 .switch {
   padding: 10px 35px;
 }
@@ -30,9 +44,6 @@
 
 .switch label {
   display: inline-block;
-  border: 1px solid #57b055;
-  background-color: #ffff;
-  color: #57b055;
   font-size: 18px;
   text-align: center;
   padding: 5px 85px;
@@ -46,11 +57,4 @@
 .switch input:checked + label {
   background: #57b055;
   color: #ffff;
-}
-
-.face-icon {
-  background-image: url("/images/face.jpg");
-  border-radius: 50%;
-  height: 55px;
-  width: 55px;
 }

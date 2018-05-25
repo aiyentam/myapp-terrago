@@ -21,6 +21,10 @@ class Main extends Component {
   }
 
   render() {
+    const columnStyle = {
+      height: this.state.height + "px",
+      backgroundColor: this.props.color
+    };
     return (
       <div className="main">
         <form className="column-amount">
@@ -39,7 +43,7 @@ class Main extends Component {
             onChange={this.onInputChange}
           />px
         </form>
-        <Columns />
+        <Columns numOfCol={this.state.numOfCol} style={columnStyle} />
       </div>
     );
   }
